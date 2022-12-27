@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn {
+        @apply m-2 bg-[#f8f9fa] font-serif font-extralight text-center text-[#3c4043] ring-gray-300 py-2 px-4 rounded-sm 
+        hover:ring-1 hover:shadow-md cursor-pointer focus:ring-blue-500 ;
+    }
+    
+    .link {
+        @apply hover:underline cursor-pointer font-serif text-sm
+    }
+
+    .linkF {
+        @apply link p-3  text-gray-500
+    }
+
+    .forwardBackword {
+        @apply flex flex-grow flex-col items-center cursor-pointer hover:underline
+    }
+    
+}
